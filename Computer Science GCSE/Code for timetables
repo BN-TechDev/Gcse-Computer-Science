@@ -1,0 +1,4 @@
+# 2. Code using for loop to times the number the user inputs by 1 to 12
+num = int(input("Enter a number: "))
+for i in range(1,13):
+    print(i,"Times",num,"=",i*num)
